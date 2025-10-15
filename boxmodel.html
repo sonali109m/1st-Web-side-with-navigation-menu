@@ -3,72 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Webside</title>
-<link rel="stylesheet" href="./style.css">
+    <title>boxmodel</title>
     <style>
-        *boxmodel{
-            text-align: center;
-            padding:0;
-            margin:0;
-            font: size 80px;px;
-            font-style: bold;
-            }
-.box{
-    text-align: center;
-    font-size: 40px;
-    background-color: aqua;
-    border: 1px solid black;
-    padding: 1px;
-    height: 40px;
-    width: 100px;
-    margin: 20px;
-}
-.one{
-    text-align: center;
-    font-size: 30px;
-    background-color: aqua;
-    border: 1px solid black;
-    padding: 1px;
-    height: 40px;
-    width: 150px;
-    margin: 20px;
+        *div{
+            padding: 0;
+            margin: 0;
+            font-size: 40px;
+        }
+        .head{
+            background-color: aquamarine;
+            padding: 20px;
+            border: 1px;
+            height: 100px;
+            width: 100px;
+            
+        }
 
-}
-.two{
-    text-align: center;
-    font-size: 30px;
-    background-color: aqua;
-    border: 1px solid black;
-    padding: 1px;
-    height: 40px;
-    width: 100px;
-    margin: 20px;
-}
-.three{
-    text-align: center;
-    font-size: 30px;
-    background-color: aqua;
-    border: 1px solid black;
-    padding: 1px;
-    height: 40px;
-    width: 150px;
-    margin: 20px;
-}
     </style>
 </head>
 <body>
-    <section universal="boxmodel">
-        <div class="box">
-            <a href="index.html" target="_blank">Home</a>
+    <div universal="div">
+        <div class="head">
+            <a href="./index.html" target="_blank">Home</a>
+            <a href="./style.css" target="_blank">Style.css</a>
+            <a href="./combinator.html">Combinator</a>
+            <a href="./boxmodel.html" target="_blank">Boxmodel</a>
         </div>
-        <div class="one">
-            <a href="combinator.html" target="_blank">Combinator</a>
-        </div>
-        <div class="two">
-            <a href="style.css" target="_blank">Style</a>
-        </div>
-        <div class="three">
-            <a href="boxmodel.html" target="_blank">Boxmodel</a>
-        </div>
-        
-    </section>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.heading{
+    background-image: url("./images/home-area.jpg");
+    height: 100dvh;
+    width: 100dvw;
+    background-position:center;
+    background-size: cover;
+}
+.header-content{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+ul li{
+    display: inline-block;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+    
+}
+.content{
+    width: 100%;
+    height: calc(100dvh - 57.6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px ;
+    margin-top: 150px;
+    font-size: 40px;
+}
+.button-primary{
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius:30px;
+    font-size: 20px;
+
+}
+.button-secondary{
+    background-color:blue;
+    color:antiquewhite;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius:30px;
+    font-size: 20px;
+}
+.white{
+    background-color:white;
+    width: 100dvw;
+    height: 100dvh;
+}
+/* common div box */
+.inner-section{
+    max-width: 1140px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+.div-heading{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* common heading section */
+.section-heading{
+    font-size: 50px;
+}
+.line{
+    border: 3px solid blue;
+    height: 3px;
+    width: 80px;
+}
+
+.inner-section div p{
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 730px;
+    height: 81px;
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.Box-sizing{
+    display: flex;
+    
+}    
+.Box-sizing div{    
+    border: 1px solid rgb(131, 129, 129);
+    border-radius: 10px;
+    box-shadow: 5px 5px 13.7px;
+    font-size: 14px;
+    padding: 32px 38px;
+    margin: 0 auto;
+}
+.Box-sizing div i{
+    height: 50px;
+    width: 50px;
+    color: blue;
+    font-size: 19px;
+}
+/* common box-sizing h4 */
+.Box-sizing div h4{
+    width: 273px;
+    height: 50px;
+    font-size: 19px;
+}
+.Box-sizing div p{
+    width: 273px;
+    height: 50px;
+    font-size: 14px;
+    color: #777;
+    display: inline-block;
+}
+.Box-sizing div div h3{
+    width: 273px;
+    height: 50px;
+    font-size: 19px;
+
+}
+.watch-video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+.watch-video div{
+    /* border: 1px solid rgb(131, 129, 129); */
+    font-size: 14px;
+    padding: 32px 38px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.watch-video button{
+    margin-left: 10px;
+}
